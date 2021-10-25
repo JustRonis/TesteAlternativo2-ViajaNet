@@ -1,0 +1,5 @@
+---
+default: --publish -p allure -p chrome
+allure: --format AllureCucumber::CucumberFormatter --out=relatorios
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
